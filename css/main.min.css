@@ -1,0 +1,789 @@
+html, body {
+	min-width: 320px;
+	max-width: 1680px;
+	height: 100%;
+
+	margin: 0;
+	padding: 0;
+	font-family: 'Roboto', sans-serif;
+	background-color: #000;
+}
+
+
+/*fonts*/
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400&subset=cyrillic,cyrillic-ext');
+/*end fonts*/
+
+/*opacity*/
+.opacity{
+	position: absolute;
+	height: 1000vh;
+	width: 100%;
+	background-color: #000;
+	opacity: .7;
+	z-index: 0;
+}
+.opacity__messange{
+	position: absolute;
+	width: 100%;
+	height: 1000vh;
+	background-color: #000;
+	opacity: .7;
+	z-index: 0;
+}
+.opacity__messange2{
+	position: absolute;
+	width: 100%;
+	height: 1000vh;
+	background-color: #000;
+	opacity: .7;
+	z-index: 0;
+}
+.opacity__description{
+	position: absolute;
+	width: 100%;
+	height: 1000vh;
+	background-color: #000;
+	opacity: .7;
+	z-index: 0;
+}
+/*end opacity*/
+
+
+/*welcome*/
+.welcome{
+	z-index: 1;
+	position: relative;
+	min-height: 550px;
+	height: 100vh;
+	overflow: hidden;
+	background-image: URL("../images/skeleton-tattoo-phot.jpg");
+	background-repeat-y: no-repeat;
+	background-repeat-x: repeat;
+	background-position-y: -175px;
+	text-align: center;
+}
+.welcome__block {
+	position: absolute;
+	width: 100%;
+	top: 27vh;
+	color: #fff;
+	margin-left: auto;
+	margin-right: auto;
+}
+.welcome__title{
+	letter-spacing: 1px;
+	font-size: 72px;
+	line-height: 1.17;
+	opacity: 1;
+	font-weight: 600;
+}
+.welcome__subtitle{
+	color: #fff;
+	padding-top: 39px;
+	padding-left: 2vw;
+	padding-right: 2vw;
+	opacity: .7;
+	font-size: 22px;
+	line-height: 1.55;
+	font-weight: 300;
+}
+.welcome__text{
+	display: block;
+	color: #fff;
+	margin-top: 75px;
+	font-size: 16px;
+	text-align: center;
+	text-decoration: none;
+	white-space: nowrap;
+	font-weight: bold;
+	cursor: pointer;
+}
+/*end welcome*/
+
+/*block*/
+.block{
+	z-index: 1;
+	position: relative;
+	display: inline-block;
+	width: 100%;
+	text-align: center;
+	color: #fff;
+	}
+.block__history{
+	background-color: #000;
+	box-shadow: 0px 0px 100px 100px #000;
+}
+.history__title{
+	padding-top: 128px;
+	font-weight: bold;
+	color: #fff;
+	font-size: 64px;
+	line-height: 1.23;
+}
+.history__text{
+	margin-top: 48px;
+	padding-bottom: 105px;
+	font-size: 24px;
+	color: #fff;
+	line-height: 22px;
+	width: 60%;
+	margin-left: auto;
+	margin-right: auto;
+}
+.block_pain{
+	padding-bottom: 7vh;
+	background-image: URL("../images/artist-2238785_1920.jpg");
+	background-position: 0px;
+	background-attachment: fixed;
+	overflow: hidden;
+	text-align: center;
+}
+.pain{
+	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: left;
+	opacity: .9;
+}
+.pain__title{
+	padding-top: 84px;
+	font-weight: bold;
+	font-size: 28px;
+	font-family: 'Roboto', sans-serif;
+	line-height: 1.17;
+	color: #fff;
+	z-index: 3;
+}
+.pain__text{
+	padding-top: 14px;
+	font-size: 20px;
+	line-height: 1.55;
+	z-index: 3;
+}
+/*end pain*/
+
+/*divesity*/
+.diversity{
+	z-index: 1;
+	position: relative;
+	color: #fff;
+}
+.container{
+	width: 100%;
+	text-align: center;
+	background-color: #e8000f;
+}
+.diversity__title{
+	height: 100%;
+	width: 100%;
+	margin: 0;
+	padding: 21px 0 41px 0;
+	background-color: #000;
+	font-size: 42px;
+	line-height: 1.23;
+	text-align: center;
+}
+.diversity__text{
+	width: 39%;
+	margin-left: auto;
+	margin-right: auto;
+	font-family: 'Roboto', serif;
+	font-weight: 300;
+	padding: 30px 0;
+	font-size: 18px;
+	line-height: 1.55;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+/*end diversity*/
+
+/*dignity*/
+.dignity{
+	z-index: 0;
+	position: relative;
+	background-color: black;
+	width: 80%;
+	height: 100%;
+	margin: 0;
+	margin-top: -3.3vh;
+	margin-left: auto;
+	margin-right: auto;
+}
+.dignity__list{
+	list-style: none;
+	width: 100%;
+}
+.dignity__item{
+	float: left;
+	height: 37.5vw;
+	width: 37.5vw;
+}
+.dignity__item_img{
+	position: absolute;
+	height: 37.5vw;
+	width: 37.5vw;
+}
+
+.dignity__item_present{
+	background-color: #e8000f;
+	color: #fff;
+	width: 37.5vw;
+	height: 37.5vw;
+	display: table;
+}
+
+.item__title{
+	text-align: center;
+	font-weight: 600;
+	font-family: 'Roboto', sans-serif;
+	font-size: 36px;
+	line-height: 1.23;
+}
+.item__text{
+	width: 70%;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 16px;
+	line-height: 25px;
+	text-align: center;
+	font-family: 'Roboto', serif;
+	font-weight: 300;
+}
+.dignity__container{
+	display:table-cell!important;
+	vertical-align:middle;
+}
+/*end dignity*/
+
+
+/*messange*/
+.messange{
+	position: relative;
+	display: inline-block;
+	width: 100%;
+	overflow: hidden;
+	background-image: URL("../images/artist-2238780_1920.jpg");
+	background-attachment:fixed;
+	background-position: 0;
+}
+.messange__block{
+	position: relative;
+	z-index: 1;
+	width: 50%;
+	display: block;
+	text-align: left;
+	background-color: #fff;
+	margin-top: 36vh;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 20vh;
+	padding: 60px;
+}
+.messange__block-text{
+	font-weight: bold;
+	font-size: 18px;
+	line-height: 20px;
+}
+/*end messange*/
+
+/*messange2*/
+.messange2{
+	z-index: 1;
+	position: relative;
+	overflow: hidden;
+	background-color: #fffafa;
+	padding: 60px;
+	margin: 90px auto;
+	width: 50vw;
+}
+.messange2__title {
+	font-size: 28px;
+	line-height: 1.17;
+	font-family: 'Roboto', sans-serif;
+	font-weight: bold;
+}
+.messange2__text {
+	font-size: 20px;
+	line-height: 1.55;
+	font-family: 'Roboto', serif;
+	font-weight: 300;
+	color: #000000;
+}
+
+
+/*end messange2*/
+.paragraphs{
+	z-index: 1;
+	position: relative;
+	padding: 60px 0;
+	background-color: #e8000f;
+	width: 100%;
+}
+.block-text{
+	max-width: 760px;
+	margin: 0 auto;
+	padding-right: 5vw;
+	padding-left: 5vw;
+}
+.paragraph{
+	color: #ffffff;
+	font-size: 20px;
+	line-height: 1.55;
+}
+.paragraph__change{
+	color: #000;
+	font-weight: bold;
+}
+/*end messange2*/
+
+/*record*/
+.record{
+	z-index: 1;
+	position: relative;
+	padding-top: 26vh;
+	padding-bottom: 4vh;
+}
+.container__record{
+	margin-left: auto;
+	margin-right: auto;
+}
+.record__block {
+	float: left;
+	max-width: 360px;
+	font-size: 1.3vw;
+	line-height: 1.55;
+	font-weight: bold;
+}
+.record__block-img{
+	float: left;
+	max-width: 469px;
+}
+.record__block-title{
+	color: rgb(232, 0, 15);
+	font-family: 'Roboto', sans-serif;
+	font-weight: 600;
+	line-height: 1.23;
+}
+.record__block-text{
+	line-height: 1.55;
+	color: #fff;
+}
+/*end record*/
+
+/*name*/
+.name{
+	z-index: 1;
+	position: relative;
+	width: 100%;
+	margin-top: 8vh;
+	display: inline-block;
+	background-color: #e8000f;
+}
+.name__container{
+	display: flex;
+	justify-content: space-evenly;
+	padding: 15vh;
+}
+.name__container-block{
+	max-width: 25vw;
+}
+.name__container-block-title{
+	padding: 8px;
+	text-align: center;
+	border-bottom: 1px solid lightgray;
+	color: #fff;
+	line-height: 1.23;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 600;
+}
+.name__container-block-text{
+	line-height: 1.55;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+	color: #fff;
+	padding-top: 4px;
+	padding-bottom: 6px;
+	text-align: center;
+}
+/*end name*/
+
+/*foto*/
+.foto{
+	z-index: 1;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	padding-top: 10px;
+	padding-bottom: 10px;	
+}
+.foto__pol{
+	width: 360px;
+	height: 360px;	
+	background: URL('../images/pol.jpg') center center no-repeat;
+	background-size: cover;
+	margin: 20px;
+}
+.foto__zombe{
+	width: 360px;
+	height: 360px;
+	background: url('../images/zombe.jpg') center center no-repeat;
+	background-size: cover;
+	margin: 20px;
+}
+.foto__tom{
+	width: 360px;
+	height: 360px;
+	background: url('../images/tom.jpg') center center no-repeat;
+	background-size: cover;
+	margin: 20px;
+}
+/*end foto*/
+
+/*description*/
+.description{
+	z-index: 1;
+	position: relative;
+	overflow: hidden;
+	display: inline-block;
+	width: 100%;
+	background: url(../images/people-2576110_1920.jpg)  no-repeat;
+	color: #fff;
+}
+.description__block{
+	position: relative;
+	padding: 15px;
+	margin-top: 12vh;
+	text-align: left;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 760px;
+}
+.description__title{
+	margin-top: 20px;
+    font-size: 28px;
+    padding-bottom: 20px;
+	line-height: 20px;
+	font-weight: bold;
+}
+.description__text{
+	font-size: 18px;
+	line-height: 20px;
+}
+/*end description*/
+
+/*quetions*/
+.questions__block{
+	z-index: 1;
+	position: relative;	
+	max-width: 38vw;
+	padding: 3% 9%;
+	margin: 5%;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #e8000f;
+	color: #000;
+}
+.questions__block > p{
+	font-weight: 700;
+	font-size: 28px;
+	font-family: 'Roboto';
+}
+/*end quetions*/
+
+
+
+/*media*/
+@media (min-width:1280px) and (max-width: 1680px){
+.container__record{
+	width: 833px;
+}
+.questions__block{
+	max-width: 51vw;
+}
+}
+
+@media (min-width: 1000px) and (max-width: 1279px){
+.container__record{
+	width: 833px;
+}
+.name__container-block-title{
+	font-size: 22px;
+}
+.name__container-block-text{
+	font-size: 16px;
+}
+.questions__block{
+	max-width: 51vw;
+}
+}
+
+@media (min-width: 1000px) and (max-width: 1224px){
+.container__record{
+	width: 854px;
+}
+}
+
+@media (min-width: 768px) and (max-width: 999px){
+.container__record {
+    width: 550px;
+    text-align: left;
+}
+.record__block{
+	max-width: 550px;
+}
+.record__block-title{
+	line-height: 1.55;
+	font-size: 18px;
+}
+.record__block-text{
+	line-height: 1.55;
+	font-size: 18px;
+	margin-bottom: 10px; 
+}
+.record__block-img{
+	max-width: 550px;
+}
+.name__container{
+	display: block;
+    padding: 15vh 20vw;
+}
+.name__container-block{
+	max-width: 89vw;
+	margin-bottom: 10vh;
+}
+.name__container-block-title{
+	font-size: 22px;
+}
+.name__container-block-text{
+	font-size: 16px;
+}
+.foto{
+	display: block;
+}
+.foto > div {
+	margin-left: auto;
+	margin-right: auto;
+}
+.pain{
+	width: 76%;
+}
+}
+
+@media (min-width: 480px) and (max-width: 767px){
+.welcome__title{
+	font-size: 60px;
+}
+
+.diversity__text{
+	width: 79%;
+}
+.pain{
+	width: 76%;
+}
+.pain__text{
+	font-size: 18px;
+}
+.history__text{
+	width: 70%;
+}
+.history__text{
+	font-size: 22px;
+}
+.container__record {
+    width: 90vw;
+    text-align: left;
+}
+.record__block{
+	max-width: 550px;
+}
+.record__block-title{
+	line-height: 1.55;
+	font-size: 18px;
+}
+.record__block-text{
+	line-height: 1.55;
+	font-size: 18px;
+	margin-bottom: 10px; 
+}
+.record__block-img{
+	max-width: 90vw;
+}
+.name__container{
+	display: block;
+    padding: 15vh 20vw;
+}
+.name__container-block{
+	max-width: 89vw;
+	margin-bottom: 10vh;
+}
+.name__container-block-title{
+	font-size: 22px;
+}
+.name__container-block-text{
+	font-size: 16px;
+}
+.foto{
+	display: block;
+}
+.foto > div {
+	margin-left: auto;
+	margin-right: auto;
+}
+.item__title{
+	font-size: 24px;
+}
+
+.dignity__item, .dignity__item_img {
+    width: 100vw;
+    height: 100vh;
+}
+.dignity__item_present{
+	float: left;
+    width: 100vw;
+    height: 30vh;
+ }
+.dignity{
+	width: 100%;
+	display: block;
+	height: 780%;
+}	
+.dignity__item_container_right{
+	display: flex;
+	flex-direction: column;
+}
+.dignity__item_container_left{
+	display: flex;
+	flex-direction: column-reverse;
+}
+.dignity__list{
+	margin: 0;
+	padding: 0;
+	height: 3744px;
+}
+.history__text{
+    width: 86%;
+    font-size: 20px;
+}
+.questions__block{
+	max-width: 70vw;
+}
+.questions__block> p{
+	font-size: 19px;
+}
+}
+
+@media (min-width: 320px) and (max-width: 479px){
+.container__record{
+	width: 71vw;
+}
+.welcome__title{
+	font-size: 36px;
+}
+.welcome__subtitle{
+	font-size: 17px;
+	line-height: 1.2;
+}
+.history__title{
+	font-size: 36px;
+}
+.history__text{
+	font-size: 20px;
+	line-height: 20px;
+	width: 90%;
+}
+.pain{
+	font-size: 16px;
+	line-height: 1.45;
+	width: 85%;
+}
+.dignity{
+	height: 541%;
+	width: 100%;
+	display: block;
+}
+.dignity__item_container_right{
+	display: flex;
+	flex-direction: column;
+}
+.dignity__item_container_left{
+	display: flex;
+	flex-direction: column-reverse;
+}
+.diversity__text{
+	font-size: 14px;
+	line-height: 1.45;
+	width: 90%;
+}
+.dignity__item, .dignity__item_img {
+    width: 100vw;
+	height: 60vh;
+}
+.dignity__item_present{
+	float: left;
+    width: 100vw;
+    height: 30vh;
+}
+.dignity__list{
+	margin: 0;
+	padding: 0;
+}
+.messange__block{
+	width: 70%;
+	margin-top: 4vh;
+	padding: 25px;
+}
+.messange__block-text{
+	font-size: 18px;
+	line-height: 20px;
+}
+.messange2 {
+    padding: 18px;
+    width: 91vw;
+}
+.messange2__text{
+	font-size: 16px;
+	line-height: 1.45;
+	font-weight: 300;
+}
+.paragraph{
+	font-size: 16px;
+	line-height: 1.45;
+}
+.record__block{
+	font-size: 16px;
+	line-height: 1.45;
+}
+.record__block-img{
+	max-width: 260px;
+}
+.name__container{
+	display: block;
+    padding: 15vh 20vw;
+}
+.name__container-block{
+	max-width: 89vw;
+	margin-bottom: 10vh;
+}
+.name__container-block-title{
+	font-size: 22px;
+}
+.name__container-block-text{
+	font-size: 16px;
+}
+.foto{
+	display: block;
+}
+.foto > div {
+	margin-left: auto;
+	margin-right: auto;
+}
+.questions__block{
+	max-width: 82vw;
+	text-align: center;
+
+}
+.questions__block > p {
+	font-size: 20px;	}
+}
